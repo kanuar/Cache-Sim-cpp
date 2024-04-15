@@ -53,3 +53,4 @@
 * a function called display cache is defined to view all the caches with their line states in a pretty manner 
 * a function called get files is used to retrive the files that are to be run on various cores from a source file (the source.txt file provides the path of the files that will run on each core)
 * the variables line_no and offset define how much to travel in the cache to obtain a value / address that is being referenced
+* use make run_valgrind in order to run the code on valgrind and check for cache based information on the code that simulates the cache
