@@ -1,4 +1,4 @@
-all: setup runtime
+all: setup runtime run_valgrind
 
 setup:
 	sudo apt-get install valgrind
